@@ -61,6 +61,9 @@
                                     <constraint firstAttribute="height" constant="30" id="k1V-lW-TqF"/>
                                 </constraints>
                                 <state key="normal" title="Create or Login"/>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HeL-LG-qBw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -78,6 +81,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="autoLoginSwitch" destination="FbL-ZY-K65" id="DA2-Wa-kGP"/>
+                        <outlet property="emailText" destination="CIj-Dq-jX7" id="KgK-Db-bhO"/>
+                        <outlet property="loginButton" destination="lUC-hr-MHZ" id="Wri-tP-jus"/>
+                        <outlet property="loginLabel" destination="fdn-HX-le3" id="4eL-nx-fJq"/>
+                        <outlet property="passwordText" destination="kh4-z1-bOh" id="aGY-uM-brB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
