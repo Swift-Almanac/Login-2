@@ -10,12 +10,12 @@
 		BEB72AA71F5771120067BC00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB72AA61F5771120067BC00 /* AppDelegate.swift */; };
 		BEB72AA91F5771120067BC00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB72AA81F5771120067BC00 /* ViewController.swift */; };
 		BEB72AAC1F5771120067BC00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB72AAA1F5771120067BC00 /* Main.storyboard */; };
-		BEB72AAF1F5771120067BC00 /* __Storyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEB72AAD1F5771120067BC00 /* __Storyboard.xcdatamodeld */; };
+		BEB72AAF1F5771120067BC00 /* __Login.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEB72AAD1F5771120067BC00 /* __Login.xcdatamodeld */; };
 		BEB72AB11F5771120067BC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB72AB01F5771120067BC00 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BEB72AA31F5771120067BC00 /* 1-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB72AA31F5771120067BC00 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB72AA61F5771120067BC00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEB72AA81F5771120067BC00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEB72AAB1F5771120067BC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		BEB72A9A1F5771120067BC00 = {
 			isa = PBXGroup;
 			children = (
-				BEB72AA51F5771120067BC00 /* 1-Storyboard */,
+				BEB72AA51F5771120067BC00 /* Login */,
 				BEB72AA41F5771120067BC00 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		BEB72AA41F5771120067BC00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEB72AA31F5771120067BC00 /* 1-Storyboard.app */,
+				BEB72AA31F5771120067BC00 /* Login.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEB72AA51F5771120067BC00 /* 1-Storyboard */ = {
+		BEB72AA51F5771120067BC00 /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				BEB72AAA1F5771120067BC00 /* Main.storyboard */,
@@ -59,9 +59,9 @@
 				BEB72AB51F5771120067BC00 /* Info.plist */,
 				BEB72ABB1F5771290067BC00 /* ViewControllers */,
 				BEB72AB01F5771120067BC00 /* Assets.xcassets */,
-				BEB72AAD1F5771120067BC00 /* __Storyboard.xcdatamodeld */,
+				BEB72AAD1F5771120067BC00 /* __Login.xcdatamodeld */,
 			);
-			path = "1-Storyboard";
+			path = Login;
 			sourceTree = "<group>";
 		};
 		BEB72ABB1F5771290067BC00 /* ViewControllers */ = {
@@ -75,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEB72AA21F5771120067BC00 /* 1-Storyboard */ = {
+		BEB72AA21F5771120067BC00 /* Login */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEB72AB81F5771120067BC00 /* Build configuration list for PBXNativeTarget "1-Storyboard" */;
+			buildConfigurationList = BEB72AB81F5771120067BC00 /* Build configuration list for PBXNativeTarget "Login" */;
 			buildPhases = (
 				BEB72A9F1F5771120067BC00 /* Sources */,
 				BEB72AA01F5771120067BC00 /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = "1-Storyboard";
+			name = Login;
 			productName = "1-Storyboard";
-			productReference = BEB72AA31F5771120067BC00 /* 1-Storyboard.app */;
+			productReference = BEB72AA31F5771120067BC00 /* Login.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BEB72A9E1F5771120067BC00 /* Build configuration list for PBXProject "1-Storyboard" */;
+			buildConfigurationList = BEB72A9E1F5771120067BC00 /* Build configuration list for PBXProject "Login" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEB72AA21F5771120067BC00 /* 1-Storyboard */,
+				BEB72AA21F5771120067BC00 /* Login */,
 			);
 		};
 /* End PBXProject section */
@@ -145,7 +145,7 @@
 			files = (
 				BEB72AA91F5771120067BC00 /* ViewController.swift in Sources */,
 				BEB72AA71F5771120067BC00 /* AppDelegate.swift in Sources */,
-				BEB72AAF1F5771120067BC00 /* __Storyboard.xcdatamodeld in Sources */,
+				BEB72AAF1F5771120067BC00 /* __Login.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -276,9 +276,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WD65G8C4YP;
-				INFOPLIST_FILE = "1-Storyboard/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Login/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftalmanac.--Storyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftalmanac.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,9 +291,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WD65G8C4YP;
-				INFOPLIST_FILE = "1-Storyboard/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Login/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftalmanac.--Storyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftalmanac.Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEB72A9E1F5771120067BC00 /* Build configuration list for PBXProject "1-Storyboard" */ = {
+		BEB72A9E1F5771120067BC00 /* Build configuration list for PBXProject "Login" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEB72AB61F5771120067BC00 /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEB72AB81F5771120067BC00 /* Build configuration list for PBXNativeTarget "1-Storyboard" */ = {
+		BEB72AB81F5771120067BC00 /* Build configuration list for PBXNativeTarget "Login" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEB72AB91F5771120067BC00 /* Debug */,
@@ -324,13 +324,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BEB72AAD1F5771120067BC00 /* __Storyboard.xcdatamodeld */ = {
+		BEB72AAD1F5771120067BC00 /* __Login.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				BEB72AAE1F5771120067BC00 /* __Storyboard.xcdatamodel */,
 			);
 			currentVersion = BEB72AAE1F5771120067BC00 /* __Storyboard.xcdatamodel */;
-			path = __Storyboard.xcdatamodeld;
+			path = __Login.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
