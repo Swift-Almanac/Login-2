@@ -19,7 +19,7 @@
 		BEB72AA61F5771120067BC00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEB72AA81F5771120067BC00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEB72AAB1F5771120067BC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEB72AAE1F5771120067BC00 /* __Storyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __Storyboard.xcdatamodel; sourceTree = "<group>"; };
+		BEB72AAE1F5771120067BC00 /* __Login.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __Login.xcdatamodel; sourceTree = "<group>"; };
 		BEB72AB01F5771120067BC00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB72AB51F5771120067BC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -327,9 +327,9 @@
 		BEB72AAD1F5771120067BC00 /* __Login.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BEB72AAE1F5771120067BC00 /* __Storyboard.xcdatamodel */,
+				BEB72AAE1F5771120067BC00 /* __Login.xcdatamodel */,
 			);
-			currentVersion = BEB72AAE1F5771120067BC00 /* __Storyboard.xcdatamodel */;
+			currentVersion = BEB72AAE1F5771120067BC00 /* __Login.xcdatamodel */;
 			path = __Login.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
