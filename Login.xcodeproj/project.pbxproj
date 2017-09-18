@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91927FA4FC6E8CAA72730631 /* Pods_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BC19802845630BFBF5B341 /* Pods_Login.framework */; };
 		BEB72AA71F5771120067BC00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB72AA61F5771120067BC00 /* AppDelegate.swift */; };
-		BEB72AA91F5771120067BC00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB72AA81F5771120067BC00 /* ViewController.swift */; };
 		BEB72AAC1F5771120067BC00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB72AAA1F5771120067BC00 /* Main.storyboard */; };
 		BEB72AAF1F5771120067BC00 /* __Login.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEB72AAD1F5771120067BC00 /* __Login.xcdatamodeld */; };
 		BEB72AB11F5771120067BC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB72AB01F5771120067BC00 /* Assets.xcassets */; };
+		BEDB87A81F6FDBB300767C6F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB87A71F6FDBB300767C6F /* LoginViewController.swift */; };
+		BEDB87AB1F6FDBF500767C6F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB87AA1F6FDBF500767C6F /* UserData.swift */; };
+		BEDB87AF1F6FDC5A00767C6F /* String+ValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB87AD1F6FDC5A00767C6F /* String+ValidEmail.swift */; };
+		BEDB87B01F6FDC5A00767C6F /* LoginViewController+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB87AE1F6FDC5A00767C6F /* LoginViewController+TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FCE2858A050AE94DECAB46C /* Pods-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Login/Pods-Login.release.xcconfig"; sourceTree = "<group>"; };
+		78BC19802845630BFBF5B341 /* Pods_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB72AA31F5771120067BC00 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB72AA61F5771120067BC00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEB72AA81F5771120067BC00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEB72AAB1F5771120067BC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEB72AAE1F5771120067BC00 /* __Login.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __Login.xcdatamodel; sourceTree = "<group>"; };
 		BEB72AB01F5771120067BC00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB72AB51F5771120067BC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDB87A71F6FDBB300767C6F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BEDB87AA1F6FDBF500767C6F /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		BEDB87AD1F6FDC5A00767C6F /* String+ValidEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+ValidEmail.swift"; path = "Login/Extensions/String+ValidEmail.swift"; sourceTree = SOURCE_ROOT; };
+		BEDB87AE1F6FDC5A00767C6F /* LoginViewController+TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LoginViewController+TextField.swift"; path = "Login/Extensions/LoginViewController+TextField.swift"; sourceTree = SOURCE_ROOT; };
+		D33DC111816E1FE2A37CFBAC /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login/Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91927FA4FC6E8CAA72730631 /* Pods_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				BEB72AA51F5771120067BC00 /* Login */,
 				BEB72AA41F5771120067BC00 /* Products */,
+				F1C6396EDFF48D526E880893 /* Pods */,
+				E0A534E7CF83562422C0514F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +71,8 @@
 				BEB72AA61F5771120067BC00 /* AppDelegate.swift */,
 				BEB72AB51F5771120067BC00 /* Info.plist */,
 				BEB72ABB1F5771290067BC00 /* ViewControllers */,
-				BEB72AB01F5771120067BC00 /* Assets.xcassets */,
-				BEB72AAD1F5771120067BC00 /* __Login.xcdatamodeld */,
+				BEDB87AC1F6FDC3600767C6F /* Extensions */,
+				BEDB87A91F6FDBCC00767C6F /* Model */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -67,9 +80,46 @@
 		BEB72ABB1F5771290067BC00 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				BEB72AA81F5771120067BC00 /* ViewController.swift */,
+				BEDB87A71F6FDBB300767C6F /* LoginViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BEDB87A91F6FDBCC00767C6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEB72AB01F5771120067BC00 /* Assets.xcassets */,
+				BEB72AAD1F5771120067BC00 /* __Login.xcdatamodeld */,
+				BEDB87AA1F6FDBF500767C6F /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEDB87AC1F6FDC3600767C6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB87AE1F6FDC5A00767C6F /* LoginViewController+TextField.swift */,
+				BEDB87AD1F6FDC5A00767C6F /* String+ValidEmail.swift */,
+			);
+			name = Extensions;
+			path = Model/Extensions;
+			sourceTree = "<group>";
+		};
+		E0A534E7CF83562422C0514F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78BC19802845630BFBF5B341 /* Pods_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C6396EDFF48D526E880893 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D33DC111816E1FE2A37CFBAC /* Pods-Login.debug.xcconfig */,
+				5FCE2858A050AE94DECAB46C /* Pods-Login.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEB72AB81F5771120067BC00 /* Build configuration list for PBXNativeTarget "Login" */;
 			buildPhases = (
+				F8970FE52B16CCE41D2FE0CC /* [CP] Check Pods Manifest.lock */,
 				BEB72A9F1F5771120067BC00 /* Sources */,
 				BEB72AA01F5771120067BC00 /* Frameworks */,
 				BEB72AA11F5771120067BC00 /* Resources */,
+				1DC9C3E2A34B5FD308C28E4B /* [CP] Embed Pods Frameworks */,
+				89A0F013967C1E5903054534 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,14 +191,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DC9C3E2A34B5FD308C28E4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A0F013967C1E5903054534 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8970FE52B16CCE41D2FE0CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEB72A9F1F5771120067BC00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB72AA91F5771120067BC00 /* ViewController.swift in Sources */,
+				BEDB87A81F6FDBB300767C6F /* LoginViewController.swift in Sources */,
 				BEB72AA71F5771120067BC00 /* AppDelegate.swift in Sources */,
+				BEDB87B01F6FDC5A00767C6F /* LoginViewController+TextField.swift in Sources */,
+				BEDB87AB1F6FDBF500767C6F /* UserData.swift in Sources */,
 				BEB72AAF1F5771120067BC00 /* __Login.xcdatamodeld in Sources */,
+				BEDB87AF1F6FDC5A00767C6F /* String+ValidEmail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +382,7 @@
 		};
 		BEB72AB91F5771120067BC00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33DC111816E1FE2A37CFBAC /* Pods-Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +398,7 @@
 		};
 		BEB72ABA1F5771120067BC00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCE2858A050AE94DECAB46C /* Pods-Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
