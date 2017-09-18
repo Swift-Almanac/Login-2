@@ -14,8 +14,8 @@
 		BEB72AB11F5771120067BC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB72AB01F5771120067BC00 /* Assets.xcassets */; };
 		BEDB87A81F6FDBB300767C6F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB87A71F6FDBB300767C6F /* LoginViewController.swift */; };
 		BEDB87AB1F6FDBF500767C6F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB87AA1F6FDBF500767C6F /* UserData.swift */; };
-		BEDB87AF1F6FDC5A00767C6F /* String+ValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB87AD1F6FDC5A00767C6F /* String+ValidEmail.swift */; };
-		BEDB87B01F6FDC5A00767C6F /* LoginViewController+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB87AE1F6FDC5A00767C6F /* LoginViewController+TextField.swift */; };
+		BEDB87B61F6FF72700767C6F /* LoginViewController+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB87B41F6FF72600767C6F /* LoginViewController+TextField.swift */; };
+		BEDB87B71F6FF72700767C6F /* String+ValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB87B51F6FF72700767C6F /* String+ValidEmail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +29,8 @@
 		BEB72AB51F5771120067BC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEDB87A71F6FDBB300767C6F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BEDB87AA1F6FDBF500767C6F /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		BEDB87AD1F6FDC5A00767C6F /* String+ValidEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+ValidEmail.swift"; path = "Login/Extensions/String+ValidEmail.swift"; sourceTree = SOURCE_ROOT; };
-		BEDB87AE1F6FDC5A00767C6F /* LoginViewController+TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LoginViewController+TextField.swift"; path = "Login/Extensions/LoginViewController+TextField.swift"; sourceTree = SOURCE_ROOT; };
+		BEDB87B41F6FF72600767C6F /* LoginViewController+TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LoginViewController+TextField.swift"; path = "Login/Extensions/LoginViewController+TextField.swift"; sourceTree = SOURCE_ROOT; };
+		BEDB87B51F6FF72700767C6F /* String+ValidEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+ValidEmail.swift"; path = "Login/Extensions/String+ValidEmail.swift"; sourceTree = SOURCE_ROOT; };
 		D33DC111816E1FE2A37CFBAC /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login/Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,8 +71,8 @@
 				BEB72AA61F5771120067BC00 /* AppDelegate.swift */,
 				BEB72AB51F5771120067BC00 /* Info.plist */,
 				BEB72ABB1F5771290067BC00 /* ViewControllers */,
-				BEDB87AC1F6FDC3600767C6F /* Extensions */,
 				BEDB87A91F6FDBCC00767C6F /* Model */,
+				BEDB87B31F6FF71200767C6F /* Extensions */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -95,14 +95,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		BEDB87AC1F6FDC3600767C6F /* Extensions */ = {
+		BEDB87B31F6FF71200767C6F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BEDB87AE1F6FDC5A00767C6F /* LoginViewController+TextField.swift */,
-				BEDB87AD1F6FDC5A00767C6F /* String+ValidEmail.swift */,
+				BEDB87B41F6FF72600767C6F /* LoginViewController+TextField.swift */,
+				BEDB87B51F6FF72700767C6F /* String+ValidEmail.swift */,
 			);
 			name = Extensions;
-			path = Model/Extensions;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		E0A534E7CF83562422C0514F /* Frameworks */ = {
@@ -250,12 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDB87B71F6FF72700767C6F /* String+ValidEmail.swift in Sources */,
 				BEDB87A81F6FDBB300767C6F /* LoginViewController.swift in Sources */,
 				BEB72AA71F5771120067BC00 /* AppDelegate.swift in Sources */,
-				BEDB87B01F6FDC5A00767C6F /* LoginViewController+TextField.swift in Sources */,
+				BEDB87B61F6FF72700767C6F /* LoginViewController+TextField.swift in Sources */,
 				BEDB87AB1F6FDBF500767C6F /* UserData.swift in Sources */,
 				BEB72AAF1F5771120067BC00 /* __Login.xcdatamodeld in Sources */,
-				BEDB87AF1F6FDC5A00767C6F /* String+ValidEmail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
